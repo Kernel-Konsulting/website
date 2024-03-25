@@ -3,7 +3,9 @@
 source "https://rubygems.org"
 
 # gem "jekyll-theme-chirpy", "~> 6.5", ">= 6.5.3"
-gem "minimal-mistakes-jekyll"
+# gem "minimal-mistakes-jekyll"
+gem "jekyll-environment-variables"
+gem "webrick"
 
 group :test do
   gem "html-proofer", "~> 4.4"

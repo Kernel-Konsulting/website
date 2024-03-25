@@ -1,7 +1,7 @@
 # The Site Configuration
 
 # Import the theme
-theme: minimal-mistakes-jekyll
+permalink: pretty
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -126,7 +126,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/"
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -205,7 +205,7 @@ jekyll-archives:
 
 
 plugins:
-  - jekyll-include-cache
+  - jekyll-environment-variables
 
 # # Site Settings
 # locale                   : "en-US"
